@@ -1,0 +1,26 @@
+.mobile-menu {
+    position: relative;
+    display: flex;
+
+    width: 256px; /* Force small size to demonstrate functionality */
+    overflow: hidden;
+
+    justify-content: flex-start;
+    gap: 12px;
+
+    background-color: #ddd;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.menu-item {
+    flex: auto 0 0;
+
+    font-size: 32px;
+
+    background-color: #eee;
+
+    cursor: pointer;
+}
